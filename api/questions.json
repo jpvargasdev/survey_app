@@ -1,0 +1,42 @@
+{
+  "response": [
+    {
+      "id": 1,
+      "type": "single_choice",
+      "question": "How would you rate your experience with our product?",
+      "options": [
+        "Very satisfied",
+        "Satisfied",
+        "Neither agree nor disagree",
+        "Dissatisfied",
+        "Very dissatisfied"
+      ]
+    },
+    {
+      "id": 2,
+      "type": "rating_scale",
+      "question": "How likely is it that you would recommend this company to a friend or colleage?",
+      "min_text": "Not all likely",
+      "min_value": 0,
+      "max_text": "Extremely likely",
+      "max_value": 10
+    },
+    {
+      "id": 3,
+      "type": "freetext",
+      "question": "What changes would this company have to make for you to give it an even higher rating?"
+    },
+    {
+      "id": 4,
+      "type": "multiple_choice",
+      "question": "What types of credit cards do you have?",
+      "options": [
+        "Visa",
+        "Master Card",
+        "American Express",
+        "Discover",
+        "Dinners Club"
+      ]
+    }
+  ]
+}
